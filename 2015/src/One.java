@@ -27,9 +27,9 @@ public class One {
     public static void main(String[] args) {
         String input = Common.read_text(1);
         int partOneResult = One.whatFloor(input);
-        System.out.println(partOneResult);
+        System.out.printf("Floor: %s", partOneResult);
         int partTwoResult = One.whatPosition(input);
-        System.out.println(partTwoResult);
+        System.out.printf("\nPosition: %s", partTwoResult);
 
     }
 
